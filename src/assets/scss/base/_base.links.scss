@@ -1,0 +1,35 @@
+// -------------------------------------
+// Links
+// -------------------------------------
+
+a {
+  color: $color-accent;
+  text-decoration: underline;
+
+  &:hover {
+    color: $color-accent;
+    text-decoration: none;
+  }
+}
+
+// -------------------------------------
+// Links in titles
+// -------------------------------------
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  & > a {
+    color: inherit;
+    text-decoration: none;
+    transition: color $tr-duration $tr-timing;
+  }
+
+  & > a:hover {
+    color: $color-accent;
+    text-decoration: none;
+  }
+}

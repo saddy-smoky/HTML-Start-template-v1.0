@@ -1,0 +1,32 @@
+// -------------------------------------
+// Body
+// -------------------------------------
+
+body {
+  font-size: pxtorem(16px);
+  color: $color-black;
+  min-width: 320px;
+  overflow-x: hidden;
+  -moz-osx-font-smoothing: grayscale;   /* Firefox */
+  -webkit-font-smoothing: antialiased; /* WebKit  */
+  &::placeholder {}
+  &::selection {
+    background-color: $font-accent;
+    color: $color-white;
+  }
+}
+
+button, input, textarea {
+  outline: none;
+  &:focus {
+    outline: none;
+  }
+  &:active {
+    outline: none;
+  }
+}
+input, textarea {
+  &:focus:required:invalid {}
+  &:required:valid {}
+}
+

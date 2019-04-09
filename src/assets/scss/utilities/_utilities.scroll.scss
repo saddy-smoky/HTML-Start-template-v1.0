@@ -1,0 +1,15 @@
+// ---------------------------
+// scroll utilities
+// ---------------------------
+
+.noyscroll {
+  overflow-y: hidden !important;
+}
+
+.noxscroll {
+  overflow-x: hidden !important;
+}
+
+.noscroll {
+  overflow: hidden !important;
+}

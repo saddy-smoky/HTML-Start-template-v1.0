@@ -1,0 +1,14 @@
+[
+  {
+    "navLabel": "Home",
+    "navUrl": "/"
+  },
+  {
+    "navLabel": "Blog",
+    "navUrl": "/blog/"
+  },
+  {
+    "navLabel": "Article",
+    "navUrl": "/article/"
+  }
+]
